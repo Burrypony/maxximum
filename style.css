@@ -142,7 +142,6 @@ h2 {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 200px);
     align-items: center;
-    justify-items: center;
     grid-column-gap: 90px;
     grid-row-gap: 10em;
 }
@@ -246,4 +245,11 @@ input{
     align-items: flex-start;
     flex-direction: column;
     padding: 10px;
+}
+
+.footer{
+    display: flex;
+    margin-top: 150px;
+    align-items: center;
+    justify-content: center;
 }
