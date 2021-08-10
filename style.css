@@ -255,3 +255,8 @@ input{
     align-items: center;
     justify-content: center;
 }
+
+a{
+    text-decoration:none;
+    color: inherit;
+}
