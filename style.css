@@ -46,6 +46,7 @@
     font-size: 24px;
     line-height: 33px;
     padding: 0 24px;
+    margin: 0 24px;
     border-top: 1px solid #586D74;
     cursor: pointer;
     font-family: "Manrope Medium";
@@ -139,10 +140,10 @@ h2 {
 
 .services {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 200px);
+    grid-template-columns: repeat(3, 200px);
+    grid-template-rows: repeat(3, 190px);
     align-items: center;
-    grid-column-gap: 90px;
+    grid-column-gap: 276px;
     grid-row-gap: 10em;
 }
 
@@ -165,6 +166,7 @@ h2 {
 .services div {
     display: flex;
     align-items: center;
+    cursor: pointer;
 }
 
 .small-services {
