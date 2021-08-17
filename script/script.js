@@ -23,3 +23,15 @@ $(".small-services div").hover(function () {
   $(this).children('span').toggleClass("hidden")
   $(this).children('div').toggleClass("visible")
 })
+
+
+$(function () {
+  $.srSmoothscroll({
+    // defaults
+    step: 55,
+    speed: 1000,
+    ease: 'swing',
+    target: $('body'),
+    container: $(window)
+  })
+})

@@ -10,6 +10,7 @@
 
 * {
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 .header {
@@ -305,7 +306,6 @@ a {
 
 .visible {
     display: block !important;
-    transition: 0.5s linear;
 }
 
 .more-info ul li span {
