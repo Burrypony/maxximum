@@ -17,3 +17,9 @@ $(".services div").hover(function () {
   $(this).children('span').toggleClass("hidden")
   $(this).children('div').toggleClass("visible")
 })
+$(".small-services div").hover(function () {
+  console.log($(this));
+  $(this).children('img').toggleClass("hidden")
+  $(this).children('span').toggleClass("hidden")
+  $(this).children('div').toggleClass("visible")
+})

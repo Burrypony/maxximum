@@ -215,17 +215,19 @@ h2 {
 .clients-logo img {
     width: 100%;
     height: 100%;
-    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    -webkit-filter: grayscale(100%);
+    /* Safari 6.0 - 9.0 */
     filter: grayscale(100%);
 }
 
-.clients-logo img:hover{
-    -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+.clients-logo img:hover {
+    -webkit-filter: grayscale(0%);
+    /* Safari 6.0 - 9.0 */
     filter: grayscale(0%);
 }
 
 
-label{
+label {
     font-family: "Manrope Medium";
     font-style: normal;
     font-weight: normal;
@@ -234,19 +236,19 @@ label{
     color: #586D74;
 }
 
-input{
-    border:none;
-    border-bottom: 1px solid #ED1D51 ;
+input {
+    border: none;
+    border-bottom: 1px solid #ED1D51;
 }
 
-.form-input{
+.form-input {
     display: flex;
     align-items: flex-start;
     flex-direction: column;
     padding: 10px;
 }
 
-.footer{
+.footer {
     display: flex;
     margin-top: 150px;
     align-items: center;
@@ -254,13 +256,13 @@ input{
     flex-direction: column;
 }
 
-.footer-first-div{
+.footer-first-div {
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
 
-.footer-second-div{
+.footer-second-div {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -273,16 +275,17 @@ input{
     color: #ED1D51;
 }
 
-.footer-second-div a,span{
+.footer-second-div a,
+span {
     padding: 5px 0;
 }
 
-a{
-    text-decoration:none;
+a {
+    text-decoration: none;
     color: inherit;
 }
 
-.lang a{
+.lang a {
     font-family: "Manrope Light";
     font-style: normal;
     font-weight: 300;
@@ -291,15 +294,42 @@ a{
     color: #000000;
 }
 
-.lang .active{
+.lang .active {
     color: #ED1D51;
     border-top: none;
 }
 
-.hidden{
+.hidden {
     display: none !important;
 }
 
-.visible{
+.visible {
     display: block !important;
+    transition: 0.5s linear;
+}
+
+.more-info ul li span {
+    font-family: "Manrope Light";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 33px;
+    align-items: center;
+
+    color: #586D74;
+}
+
+.more-info ul li{
+    color: #ED1D51;
+}
+.form{
+    width: 33rem;
+}
+
+.form-input:last-child input{
+    width: 100%;
+}
+
+.form-input:nth-child(2) input{
+    width: 75%;
 }
